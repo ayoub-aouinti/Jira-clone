@@ -1,15 +1,26 @@
-// import { Button } from "@/components/ui/button";
-
-import { TestComponent } from "@/features/test";
+import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div>
-      {/* <Button size="sm">Click Me</Button>
-      <p className="text-red-50 font-semibold">
-        Antonio
-      </p> */}
-      <TestComponent></TestComponent>
+    <div className="">
+      <Button>
+        Primary
+      </Button>
+      <Button variant="secondary">
+        Secondary
+      </Button>
+      <Button variant="destructive">
+        Destructive
+      </Button>
+      <Button variant="ghost">
+        Ghost
+      </Button>
+      <Button variant="link">
+        Link
+      </Button>
+      <Button variant="outline">
+        Outline
+      </Button>
     </div>
   );
 }
